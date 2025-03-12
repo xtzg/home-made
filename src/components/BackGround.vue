@@ -24,6 +24,12 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+
+        @media (max-width: 720px) {
+            left: -50%;
+            width: 150%;
+            height: 100%;
+        }
     }
 }
 </style>

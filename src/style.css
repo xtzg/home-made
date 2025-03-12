@@ -45,7 +45,7 @@ body {
       transform 0.3s;
   
     &:hover {
-      transform: scale(1.01);
+      transform: scale(1.05);
     }
   
     &:active {

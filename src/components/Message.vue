@@ -30,21 +30,33 @@ const message = {
     "first": "恭喜你",
     "second": "发现隐藏盒子"
 }
-
+const handleMobileClick = () => {
+    ElMessage({
+        message: '移动端暂未开放隐藏盒子功能',
+        type: 'warning',
+        showClose: true,
+    })
+}
 const handleClick = () => {
-    store.boxOpenState = !store.boxOpenState;
-    if (store.boxOpenState) {
-        ElMessage({
-            message: '隐藏盒子',
-            type: 'success',
-            showClose: true,
-        })
-    } else {
-        ElMessage({
-            message: '回到主页',
-            type: 'success',
-            showClose: true,
-        })
+    if (store.isMobile) {
+        handleMobileClick()
+        return
+    }
+    else {
+        store.boxOpenState = !store.boxOpenState;
+        if (store.boxOpenState) {
+            ElMessage({
+                message: '隐藏盒子',
+                type: 'success',
+                showClose: true,
+            })
+        } else {
+            ElMessage({
+                message: '回到主页',
+                type: 'success',
+                showClose: true,
+            })
+        }
     }
 }
 </script>

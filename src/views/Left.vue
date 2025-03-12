@@ -23,5 +23,10 @@ import Social from '../components/Social.vue';
     margin-right: 60px;
     gap: 10px;
     max-width: 460px;
+
+    @media (max-width: 720px) {
+        width: 100%;
+        margin-right: 0;
+    }
 }
 </style>

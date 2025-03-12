@@ -1,37 +1,37 @@
 [{
     "name":"Github",
-    "icon":"/public/icons/github.png",
+    "icon":"/home-made/icons/github.png",
     "tip":"去github看看",
     "url":"https://github.com/xtzg"
 },
 {
     "name":"Bilibili",
-    "icon":"/public/icons/bilibili.png",
+    "icon":"/home-made/icons/bilibili.png",
     "tip":"(゜-゜)つロ 干杯 ~",
     "url":"https://www.bilibili.com/"
 },
 {
     "name":"QQ",
-    "icon":"/public/icons/qq.png",
+    "icon":"/home-made/icons/qq.png",
     "tip":"加我QQ好友",
     "url":"https://res.abeim.cn/api/qq/?qq=2364016387"
 },
 {
     "name":"Email",
-    "icon":"/public/icons/email.png",
+    "icon":"/home-made/icons/email.png",
     "tip":"来封 Email ~",
     "url":"mailto:2364016387@qq.com"
 },
 {
     "name":"Wechat",
-    "icon":"/public/icons/wechat.png",
+    "icon":"/home-made/icons/wechat.png",
     "tip":"加微加微",
     "url":"https://res.abeim.cn/api/qq/?qq=2364016387"
 }
 ,
 {
     "name":"Onlyfans",
-    "icon":"/public/icons/onlyfans.png",
+    "icon":"/home-made/icons/onlyfans.png",
     "tip":"宋师傅认证",
     "url":"https://www.onlyfans.com/xtzg"
 }

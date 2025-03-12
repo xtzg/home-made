@@ -36,6 +36,12 @@ const store = useStore();
     align-items: center;
     justify-content: center;
 
+    @media (max-width: 720px) {
+        width: 100%;
+        margin-left: 0;
+
+    }
+
     .right-top {
         height: 165px;
         width: 100%;
@@ -59,8 +65,6 @@ const store = useStore();
                 }
             }
         }
-
-
     }
 }
 </style>
